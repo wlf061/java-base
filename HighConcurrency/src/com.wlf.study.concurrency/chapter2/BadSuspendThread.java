@@ -1,6 +1,8 @@
 package com.wlf.study.concurrency.chapter2;
 
 
+import java.util.concurrent.atomic.AtomicInteger;
+
 /*通过jps 查看进程，通过jstack 查看线程状态*/
 public class BadSuspendThread {
     public static Object u = new Object();
